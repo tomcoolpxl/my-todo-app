@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/my-todo-app:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pxl-todo-app:latest
